@@ -1,0 +1,40 @@
+.logcard {
+    border: 2px solid #64A411;
+    border-radius: 15px;
+    margin-top: 2vh;
+}
+
+.rating {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.scanned-date {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.parent {
+    position: relative;
+}
+
+.input-background {
+    background-color: rgb(10, 10, 10);
+    border-color: #64A411;
+}
+
+.border-register-login {
+    border-color: #64A411;
+}
+
+.usercard {
+    border: 1px solid #64A411;
+    border-radius: 10px;
+}
+
+.errormessage-register {
+    margin-top: 0.3rem !important;
+}

@@ -1,0 +1,53 @@
+/* .background {
+    position:relative;
+}
+
+.background:after {
+    content: " ";
+    z-index: 10;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+} */
+
+/* .app-body{
+    background-color: black;
+} */
+
+.rating-circle-div {
+    position: absolute;
+    left: 0;
+    width: 100% !important;
+    border-radius: 50%;
+    height: 100vw;
+    margin-top: -10vh;
+    background-color: rgb(55, 55, 55);
+}
+
+.slider {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.comment-box {
+    position: absolute;
+    margin-top: 78vw;
+    width: 91.5%;
+}
+
+.background-coloring {
+    /* align-items: bottom; */
+    margin-top: auto;
+    height: 39.6vh;
+    bottom: 0;
+    background-color: rgb(55, 55, 55);
+}
+
+.text-green {
+    color: #64A411;
+}

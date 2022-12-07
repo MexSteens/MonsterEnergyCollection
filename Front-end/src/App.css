@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.app {
+  font-family: 'Raleway', sans-serif;
+}
+
+.app-body {
+  background-color: #1f1f1f;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* padding-bottom: 3.5rem; */
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.footer-div {
+  background-color: #000;
+  border: none !important;
+}
+
+.footer-middle {
+  margin-top: -2rem;
+  background-color: #000;
+}
+
+.icon-footer {
+  width: 3rem;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  color: #64A411;
+}
+
+.icon-footer-middle {
+  width: 4rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  color: #64A411;
+}

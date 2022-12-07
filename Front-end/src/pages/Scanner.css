@@ -1,0 +1,79 @@
+.drawingBuffer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gap {
+    background-color: #000 !important;
+    position: absolute;
+    left: 0;
+    width: 100% !important;
+    border-radius: 5px;
+    height: 2vh;
+}
+
+.small-gap {
+    background-color: rgb(55, 55, 55) !important;
+    position: absolute;
+    left: 0;
+    width: 100% !important;
+    border-radius: 5px;
+    height: 0.3vh;
+}
+
+.name {
+    margin-top: 2vh;
+}
+
+.your-review {
+    margin-top: 2vh;
+}
+
+.general-button {
+    border: 1px solid #64A411;
+}
+
+.general-button-selected {
+    background-color: #64A411;
+}
+
+.profile-picture, .share-middle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profile-div {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.full-star {
+    color: #F5BE1A;
+}
+
+.background {
+    position:relative;
+}
+
+.background:after {
+    content: " ";
+    z-index: 10;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+.container {
+    background-color: #1f1f1f !important;
+}
+
+.country {
+    top: 35%;
+}
