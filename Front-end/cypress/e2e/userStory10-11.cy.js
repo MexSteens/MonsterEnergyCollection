@@ -5,8 +5,8 @@ describe('The admin page', () => {
         cy.visit('http://localhost:3000/login')
     
         //fill in form
-        cy.get('input[name=username]').type("testaccount")
-        cy.get('input[name=password]').type("test1234")
+        cy.get('input[name=username]').type("")
+        cy.get('input[name=password]').type("")
     
         //submit form
         cy.get('button[name=login-button]').click()
@@ -18,45 +18,45 @@ describe('The admin page', () => {
 
     it('user story 10', () => {
       //confirm role is user
-      cy.get('div[name=usernametest]').within(() => {
-        cy.contains("usernametest")
+      cy.get('div[name=]').within(() => {
+        cy.contains("")
         cy.contains("USER")
       })
   
       //change role to moderator
-      cy.get('div[name=usernametest]').within(() => {
+      cy.get('div[name=]').within(() => {
         cy.get('button[name=moderator-button]').click()
       })
   
       //assert everything went okay
-      cy.get('div[name=usernametest]').within(() => {
+      cy.get('div[name=]').within(() => {
         cy.contains("MODERATOR")
         cy.get('button[name=user-button]').click()
       })
     })
 
     it('user story 11', () => {
-        //confirm usernametest is present
-        cy.get('div[name=usernametest]').within(() => {
-          cy.contains("usernametest")
+        //confirm  is present
+        cy.get('div[name=]').within(() => {
+          cy.contains("")
         })
     
         //search user
-        cy.get('input[name=searchbar]').type("usernametest")
+        cy.get('input[name=searchbar]').type("")
         cy.get('button[name=search-button]').click()
     
         //assert everything went okay
-        cy.get('div[name=usernametest]').within(() => {
-          cy.contains("usernametest")
+        cy.get('div[name=]').within(() => {
+          cy.contains("")
         })
 
         //search partly
-        cy.get('input[name=searchbar]').clear().type("username")
+        cy.get('input[name=searchbar]').clear().type("")
         cy.get('button[name=search-button]').click()
 
         //assert everything went okay
-        cy.get('div[name=usernametest]').within(() => {
-          cy.contains("usernametest")
+        cy.get('div[name=]').within(() => {
+          cy.contains("")
         })
       })
   })

@@ -5,8 +5,8 @@ describe('The moderator page', () => {
         cy.visit('http://localhost:3000/login')
     
         //fill in form
-        cy.get('input[name=username]').type("usernametest")
-        cy.get('input[name=password]').type("test1234")
+        cy.get('input[name=username]').type("")
+        cy.get('input[name=password]').type("")
     
         //submit form
         cy.get('button[name=login-button]').click()
@@ -27,8 +27,8 @@ describe('The moderator page', () => {
         cy.visit('http://localhost:3000/login')
     
         //fill in form
-        cy.get('input[name=username]').type("tester")
-        cy.get('input[name=password]').type("test123")
+        cy.get('input[name=username]').type("")
+        cy.get('input[name=password]').type("")
     
         //submit form
         cy.get('button[name=login-button]').click()
@@ -47,8 +47,8 @@ describe('The moderator page', () => {
         cy.visit('http://localhost:3000/login')
     
         //fill in form
-        cy.get('input[name=username]').type("usernametest")
-        cy.get('input[name=password]').type("test1234")
+        cy.get('input[name=username]').type("")
+        cy.get('input[name=password]').type("")
     
         //submit form
         cy.get('button[name=login-button]').click()
