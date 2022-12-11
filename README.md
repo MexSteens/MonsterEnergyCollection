@@ -18,3 +18,6 @@ And then you are all set to start it with
 ```
 npm start
 ```
+
+### What did I learn?
+I learned a lot more about testing and security. I really dove into a bunch of testing software like Cypress, Sonarqube and Snyk. I also learned about authorization and authentication. It was also completly new for me to work with Java, Spring boot and React. Adjusting to Java was quite easy and Spring boot also wasn't too difficult. I struggled for a while with React and using the right states but I also learned a lot from it!
